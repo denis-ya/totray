@@ -4,9 +4,9 @@
 
 VS_VERSION_INFO VERSIONINFO
 
- FILEVERSION 1,0,4,0
+ FILEVERSION 1,1,0,0
 
- PRODUCTVERSION 1,0,4,0
+ PRODUCTVERSION 1,1,0,0
 
  FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
 
@@ -34,21 +34,21 @@ BEGIN
 
             VALUE "CompanyName", "fcFn"
 
-            VALUE "FileDescription", "Traymond"
+            VALUE "FileDescription", "ToTray"
 
-            VALUE "FileVersion", "1.0.4"
+            VALUE "FileVersion", "1.1.0"
 
-            VALUE "InternalName", "Traymond.exe"
+            VALUE "InternalName", "ToTray.exe"
 
             VALUE "LegalCopyright", "Copyright (C) 2020 fcFn"
 
-            VALUE "OriginalFilename", "Traymond.exe"
+            VALUE "OriginalFilename", "ToTray.exe"
 
-            VALUE "ProductName", "Traymond"
+            VALUE "ProductName", "ToTray"
 
-            VALUE "ProductVersion", "1.0.4"
+            VALUE "ProductVersion", "1.1.0"
 
-            VALUE "Comment", "https://github.com/fcFn/traymond"
+            VALUE "Comment", "https://github.com/denis-ya/totray"
 
         END
 

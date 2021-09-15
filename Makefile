@@ -6,8 +6,8 @@ RFLAGS=/nologo /n /r
 {src/}.rc.res:
 	$(RC) $(RFLAGS) /fo$(@F) $<
 
-Traymond.exe: traymond.obj Traymond.res
+totray.exe: traymond.obj Traymond.res
 	$(CPP) $(CPPFLAGS) /Fe$(@F) $** user32.lib shell32.lib /link /MACHINE:X86
 
 clean:
-	del *.obj *.res Traymond.exe
+	del *.obj *.res totray.exe

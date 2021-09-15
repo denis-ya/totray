@@ -1,9 +1,11 @@
-![Traymond](https://github.com/fcFn/fcFn.github.io/blob/master/images/logos/traymond_logo.png) Traymond
+![Traymond](https://github.com/fcFn/fcFn.github.io/blob/master/images/logos/traymond_logo.png) ToTray = Traymond + Mouse Jiggler
 =======
 
 A very simple app for minimizing any window to tray as an icon. Runs in the background.
 
 In case it terminates unexpectedly, restart the app and all the icons for minimized windows will come back.
+
+It also implements "fake" mouse input to Windows,and jiggle the mouse pointer back and forth. This might be useful for avoiding screensavers or other things triggered by idle detection.
 
 Windows 7 or later required (but see [#3](/../../issues/3)) 
 
@@ -17,7 +19,7 @@ No installation required, just run Traymond.exe.
 Controls
 --------
 
-+ __Win key + Shift + Z__: Minimize the currently focused window to tray.
++ __Alt + `__: Minimize the currently focused window to tray.
 
 + __Double click on an icon__: Bring back the corresponding hidden window.
 
