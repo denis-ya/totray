@@ -9,7 +9,7 @@ It also implements "fake" mouse input to Windows,and jiggle the mouse pointer ba
 
 Windows 7 or later required (but see [#3](/../../issues/3)) 
 
-A binary is available [here](https://github.com/fcFn/traymond/releases).
+A binary is available [here](https://github.com/denis-ya/totray/releases).
 
 Installing
 ------------
